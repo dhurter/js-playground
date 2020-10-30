@@ -50,8 +50,8 @@ const numbers = [1, -1, 2, 3];
 //     return value >= 0;
 // });
 
-const filtered = numbers.filter(n => n >= 0);
-console.log(filtered);
+// const filtered = numbers.filter(n => n >= 0);
+// console.log(filtered);
 
 //const items = filtered.map(n => '<li>' + n + '</li>');
 //const html = '<ul>' + items.join('') + '</ul>';
@@ -63,10 +63,22 @@ console.log(filtered);
 
 //const items = filtered.map(n => ({ value: n }) );
 
-const items = numbers
-    .filter(n => n >= 0)
-    .map(n => ({ value: n }));
+// const items = numbers
+//     .filter(n => n >= 0)
+//     .map(n => ({ value: n }));
 
-console.log(items);
+// console.log(items);
 
 
+// Reducing
+const newNumbers = [9, 10, 20, 30];
+
+// Sum values of array
+// let sum = 0;
+// for (let n of newNumbers)
+//  sum += n;
+
+ // better way
+ const sum = newNumbers.reduce((accumulator, currentValue) => accumulator + currentValue);
+
+ console.log(sum);
