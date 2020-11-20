@@ -41,3 +41,5 @@ Object.keys(obj);
 
 // To get all the properties (own + prototype): 
 for (let key in obj) {}
+
+// DON'T MODIFY OBJECTS YOU DON'T OWN
