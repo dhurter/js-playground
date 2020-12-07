@@ -7,7 +7,7 @@
 
 // CommonJS (Used in Node)
 // Exporting 
-module.exports.Cirlce = Circle; 
+module.exports.Circle = Circle; 
 // Importing 
 const Circle = require('./circle');
 
